@@ -15,3 +15,4 @@ mynum = 111.222
 # print(dir())
 # print(dir(mynum))
 # print(mynum.is_integer())
+# ...
