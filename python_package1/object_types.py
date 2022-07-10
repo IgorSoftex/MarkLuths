@@ -17,6 +17,29 @@
 # print(mynum.is_integer())
 # ...
 
-mylen = "spam"
+# mylen = "spam"
 # print(mylen + "_")
-print(mylen.__add__("__"))
+# print(mylen.__add__("__"))
+# help(mylen.title)
+# help(mylen.count)
+# mylen = '5A\nB\tC'
+# mylen = """первая строка
+# вторая строка"""
+# г'С: \text\new'
+# mylen = r'С: \text\new'
+# mylen = 'spam'
+# mylen = 'sp\xc4\u00c4\U000000c4m'
+# print(mylen)
+
+import re
+len1 = 'My Python'
+len2 = 'My Python'
+match = re.match(len1, len2)
+if match:
+    print(match.group())
+else:
+    print('None')
+
+# print(match)
+# print(match.group())
+# print(type(match))
