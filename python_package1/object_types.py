@@ -8,5 +8,6 @@
 # mylen = "{} Ігор {}".format("_", "_")
 # print(mylen)
 
+#
 mynum = 111.222
 print(mynum)
