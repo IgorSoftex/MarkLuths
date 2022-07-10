@@ -8,6 +8,10 @@
 # mylen = "{} Ігор {}".format("_", "_")
 # print(mylen)
 
-#
+# # Пример
 mynum = 111.222
-print(mynum)
+# print(mynum)
+
+# print(dir())
+# print(dir(mynum))
+# print(mynum.is_integer())
