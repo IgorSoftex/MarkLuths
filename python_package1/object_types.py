@@ -9,10 +9,14 @@
 # print(mylen)
 
 # # Пример
-mynum = 111.222
+# mynum = 111.222
 # print(mynum)
 
 # print(dir())
 # print(dir(mynum))
 # print(mynum.is_integer())
 # ...
+
+mylen = "spam"
+# print(mylen + "_")
+print(mylen.__add__("__"))
