@@ -31,15 +31,41 @@
 # mylen = 'sp\xc4\u00c4\U000000c4m'
 # print(mylen)
 
-import re
-len1 = 'My Python'
-len2 = 'My Python'
-match = re.match(len1, len2)
-if match:
-    print(match.group())
-else:
-    print('None')
+# import re
+# len1 = 'My Python'
+# len2 = 'My Python2'
+# match = re.match(len1+'*', len2)
+# if match:
+#     print(match.group())
+# else:
+#     print('None')
 
 # print(match)
 # print(match.group())
 # print(type(match))
+
+# mylist = ['123', 'spam', '1.23']
+# print(mylist)
+# mylist.reverse()
+# print(mylist)
+
+# mylist.sort()
+# print(mylist)
+
+# mylist.extend([555,333])
+# print(mylist)
+
+# help(mylist.reverse)
+
+# mylist.insert(0,'новий')
+# print(mylist)
+# mylist.append('новий')
+# print(mylist)
+# mylist.pop(0)
+# print(mylist)
+
+matrix = []
+matrix.append([1,2,3])
+matrix.append([4,5,6])
+matrix.append([7,8,9])
+print(matrix)
