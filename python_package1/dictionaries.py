@@ -9,12 +9,25 @@
 # print(pizza)
 
 pizza = dict()
-print(type(pizza))
-# print(pizza)
+# print(type(pizza))
 pizza["class"] = "Бюджетная"
-pizza["price"] = 100
 pizza["toppings"] = ["Сир", "Салямі"]
-print(pizza)
-# print(pizza["toppings"][0])
-for i in pizza["toppings"]:
-    print(i)
+pizza["price"] = 100
+# keys = list(pizza.keys())
+# print(keys)
+# print(sorted(keys))
+
+# keys.sort()
+# print(keys)
+
+# help(pizza.get)
+
+# if "class_" in pizza:
+#     print(pizza["class_"])
+# else:
+#     print("Немає такого ключа: class_")
+
+# pizza["toppings"].append("Бекон")
+# for i in pizza["toppings"]:
+#     print(i)
+# print(pizza["toppings"])
