@@ -64,8 +64,35 @@
 # mylist.pop(0)
 # print(mylist)
 
-matrix = []
-matrix.append([1,2,3])
-matrix.append([4,5,6])
-matrix.append([7,8,9])
+# matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# diag = [matrix[i] [i] for i in [0, 1, 2]] # Собрать диагональ из матрицы
+# print(diag)
+
+# mystr = 'spam'
+# res = [i for i in mystr]
+# print(res)
+
+# lst = [row[1] for row in matrix if row[1]%2 == 0] # Отфильтровать нечетные элементы
+# print(lst)
+
+# lst = [row[1]+1 for row in matrix]
+# print(lst)
+
+# column2 = [row[1] for row in matrix]
+# print(column2)
+
+# print(matrix)
+# print(matrix[0][1])
+# print(matrix[1][1])
+# print(matrix[2][1])
+
+# help(list)
+
+# mylist = list(range(1, 11))
+# print(mylist)
+
+# Создать множество сумм элементов в строках:
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(matrix)
+res = [sum(row) for row in matrix]
+print(res)
